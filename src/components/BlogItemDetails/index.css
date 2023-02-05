@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.blog-item-data-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-left: 35px;
+}
+
+.author {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding: 8px;
+}
+
+.image {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+}
+
+.paragraph {
+  color: #2f4f4f;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 35px;
+  padding-right: 35px;
+}
